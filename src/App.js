@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 import "./App.css";
 
-import AlbumeArtOne from "./AlbumArtOne";
+import AlbumArtOne from "./AlbumArtOne";
 
 class App extends Component {
     render() {
@@ -9,7 +9,7 @@ class App extends Component {
             <div className="App">
                 <header className="App-header">Designs</header>
                 <hr />
-                <AlbumeArtOne />
+                <AlbumArtOne />
             </div>
         );
     }

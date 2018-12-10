@@ -6,7 +6,13 @@ export default function index() {
         <main>
             <article className="circle small-circle blue" />
             <article className="circle medium-circle orange" />
-            <article>boy</article>
+            <article className="flower">
+                <img
+                    className="responsive-img"
+                    src={require("../assets/flower.svg")}
+                    alt="flower"
+                />
+            </article>
             <article className="triangle small-orange" />
             <article className="triangle large-red" />
             <article className="triangle medium-purple" />
