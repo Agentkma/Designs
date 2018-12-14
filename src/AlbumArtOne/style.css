@@ -20,7 +20,9 @@ main {
     grid-template-rows: 20vh 10vh 10vh 10vh 12.5vh 7.5vh 12.5vh 17.5vh;
 
     /*   todo : change match or use svg for textureed background */
-    background-color: tan;
+    /* background-color: tan; */
+    background-color: #dabd6c;
+    background-image: url("data:image/svg+xml,%3Csvg width='6' height='6' viewBox='0 0 6 6' xmlns='http://www.w3.org/2000/svg'%3E%3Cg fill='%234e4c48' fill-opacity='0.1' fill-rule='evenodd'%3E%3Cpath d='M5 0h1L0 6V5zM6 5v1H5z'/%3E%3C/g%3E%3C/svg%3E");
     margin: auto;
 }
 
@@ -47,13 +49,91 @@ main {
 
 /* todo: add gradients to color shapes */
 /* todo: add spans as children to shapes and rotate them to create lines */
-
+/* todo: rotate shapes OR make gradient come from corners */
 .blue {
     background-color: blue;
+    background: rgba(177, 213, 246, 1);
+    background: -moz-radial-gradient(
+        center,
+        ellipse cover,
+        rgba(177, 213, 246, 1) 0%,
+        rgba(118, 174, 239, 1) 100%
+    );
+    background: -webkit-gradient(
+        radial,
+        center center,
+        0px,
+        center center,
+        100%,
+        color-stop(0%, rgba(177, 213, 246, 1)),
+        color-stop(100%, rgba(118, 174, 239, 1))
+    );
+    background: -webkit-radial-gradient(
+        center,
+        ellipse cover,
+        rgba(177, 213, 246, 1) 0%,
+        rgba(118, 174, 239, 1) 100%
+    );
+    background: -o-radial-gradient(
+        center,
+        ellipse cover,
+        rgba(177, 213, 246, 1) 0%,
+        rgba(118, 174, 239, 1) 100%
+    );
+    background: -ms-radial-gradient(
+        center,
+        ellipse cover,
+        rgba(177, 213, 246, 1) 0%,
+        rgba(118, 174, 239, 1) 100%
+    );
+    background: radial-gradient(
+        ellipse at center,
+        rgba(177, 213, 246, 1) 0%,
+        rgba(118, 174, 239, 1) 100%
+    );
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#b1d5f6', endColorstr='#76aeef', GradientType=1 );
 }
 
 .orange {
     background-color: var(--bg-color-orange);
+    background: -webkit-gradient(
+        radial,
+        center center,
+        0px,
+        center center,
+        100%,
+        color-stop(0%, rgba(255, 175, 75, 1)),
+        color-stop(32%, rgba(255, 162, 45, 1)),
+        color-stop(70%, rgba(255, 146, 10, 1))
+    );
+    background: -webkit-radial-gradient(
+        center,
+        ellipse cover,
+        rgba(255, 175, 75, 1) 0%,
+        rgba(255, 162, 45, 1) 32%,
+        rgba(255, 146, 10, 1) 70%
+    );
+    background: -o-radial-gradient(
+        center,
+        ellipse cover,
+        rgba(255, 175, 75, 1) 0%,
+        rgba(255, 162, 45, 1) 32%,
+        rgba(255, 146, 10, 1) 70%
+    );
+    background: -ms-radial-gradient(
+        center,
+        ellipse cover,
+        rgba(255, 175, 75, 1) 0%,
+        rgba(255, 162, 45, 1) 32%,
+        rgba(255, 146, 10, 1) 70%
+    );
+    background: radial-gradient(
+        ellipse at center,
+        rgba(255, 175, 75, 1) 0%,
+        rgba(255, 162, 45, 1) 32%,
+        rgba(255, 146, 10, 1) 70%
+    );
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffaf4b', endColorstr='#ff920a', GradientType=1 );
 }
 
 /* Size */
@@ -83,7 +163,7 @@ main {
 .large-red {
     border-left: 15vh solid transparent;
     border-right: 15vh solid transparent;
-    border-top: 22.5vh solid red;
+    border-top: 22.5vh solid #800000;
     grid-row: 5 / span 2;
     grid-column: 6 / span 2;
     margin-top: -25%;
@@ -95,4 +175,30 @@ main {
     border-top: 9vh solid purple;
     grid-row: 6 / span 2;
     grid-column: 8 / span 2;
+}
+
+.blueLine1 {
+    margin-top: 50%;
+    width: 100%;
+    border-bottom: 1px solid gray;
+    transform: rotate(75deg);
+}
+
+.blueLine2 {
+    margin-top: 25%;
+    margin-bottom: 0;
+    margin-left: 0;
+    margin-right: 0;
+    width: 60%;
+    border-bottom: 1px solid gray;
+    transform: rotate(40deg);
+}
+
+.blueLine3 {
+    margin-left: 25%;
+    margin-top: 0;
+    margin-right: 0;
+    width: 80%;
+    border-bottom: 1px solid gray;
+    transform: rotate(150deg);
 }
