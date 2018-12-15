@@ -55,7 +55,7 @@ main {
     background: rgba(177, 213, 246, 1);
     background: -moz-radial-gradient(
         center,
-        ellipse cover,
+        ellipse farthest-corner,
         rgba(177, 213, 246, 1) 0%,
         rgba(118, 174, 239, 1) 100%
     );
@@ -70,19 +70,19 @@ main {
     );
     background: -webkit-radial-gradient(
         center,
-        ellipse cover,
+        ellipse farthest-corner,
         rgba(177, 213, 246, 1) 0%,
         rgba(118, 174, 239, 1) 100%
     );
     background: -o-radial-gradient(
         center,
-        ellipse cover,
+        ellipse farthest-corner,
         rgba(177, 213, 246, 1) 0%,
         rgba(118, 174, 239, 1) 100%
     );
     background: -ms-radial-gradient(
         center,
-        ellipse cover,
+        ellipse farthest-corner,
         rgba(177, 213, 246, 1) 0%,
         rgba(118, 174, 239, 1) 100%
     );
@@ -108,21 +108,21 @@ main {
     );
     background: -webkit-radial-gradient(
         center,
-        ellipse cover,
+        ellipse farthest-corner,
         rgba(255, 175, 75, 1) 0%,
         rgba(255, 162, 45, 1) 32%,
         rgba(255, 146, 10, 1) 70%
     );
     background: -o-radial-gradient(
         center,
-        ellipse cover,
+        ellipse farthest-corner,
         rgba(255, 175, 75, 1) 0%,
         rgba(255, 162, 45, 1) 32%,
         rgba(255, 146, 10, 1) 70%
     );
     background: -ms-radial-gradient(
         center,
-        ellipse cover,
+        ellipse farthest-corner,
         rgba(255, 175, 75, 1) 0%,
         rgba(255, 162, 45, 1) 32%,
         rgba(255, 146, 10, 1) 70%
@@ -201,4 +201,30 @@ main {
     width: 80%;
     border-bottom: 1px solid gray;
     transform: rotate(150deg);
+}
+
+.orangeLine1 {
+    margin-top: 50%;
+    width: 100%;
+    border-bottom: 1px solid gray;
+    transform: rotate(60deg);
+}
+
+.orangeLine2 {
+    margin-top: 25%;
+    margin-bottom: 0;
+    margin-left: 0;
+    margin-right: 0;
+    width: 60%;
+    border-bottom: 1px solid gray;
+    transform: rotate(30deg);
+}
+
+.orangeLine3 {
+    margin-left: 25%;
+    margin-top: 0;
+    margin-right: 0;
+    width: 80%;
+    border-bottom: 1px solid gray;
+    transform: rotate(1750deg);
 }

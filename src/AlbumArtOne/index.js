@@ -9,7 +9,11 @@ export default function index() {
                 <p className="blueLine2" />
                 <p className="blueLine3" />
             </article>
-            <article className="circle medium-circle orange" />
+            <article className="circle medium-circle orange">
+                <p className="orangeLine1" />
+                <p className="orangeLine2" />
+                <p className="orangeLine3" />
+            </article>
             <article className="flower">
                 <img
                     className="responsive-img"
