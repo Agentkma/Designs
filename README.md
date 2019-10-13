@@ -9,8 +9,8 @@ Creative Design & Animations...album art and abstract creations [link to the liv
 - [ ] **pending feature**: What this feature does
  
 ### ScreenShots
-![Album Art One](./assets/AlbumArtOne.png)
-![Album Art One Animated](./assets/AlbumArtOne.gif)
+![Album Art One](src/assets/AlbumArtOne.png)
+![Album Art One Animated](src/assets/AlbumArtOne.gif)
 ![Image title](imagelink.jpg)
 
 ## Context
