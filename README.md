@@ -1,8 +1,32 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# Title
+Design & Animation
 
-## Available Scripts
+## Description
+Creative Design & Animations...album art and abstract creations [link to the live demo-NA](#).
 
-In the project directory, you can run:
+### Features
+- [x] **completed feature**: What this feature does
+- [ ] **pending feature**: What this feature does
+ 
+### ScreenShots
+![Album Art One](./assets/AlbumArtOne.png)
+![Album Art One Animated](./assets/AlbumArtOne.gif)
+![Image title](imagelink.jpg)
+
+## Context
+### Motivation
+
+I wanted to explore my creative side by recreating abstract album art and creating my own abstract art that is also enhanced with animation.  I also wanted to showcase my design chops and its evolution.
+
+## Technical Specs 
+what's your stack? what dependencies or gems shoul folks be aware that you've used? have links if folks may need reference to them.
+- React
+- CSS/Styled-Components
+
+## Requirements Checklist
+- [ ] na
+
+### Running
 
 ### `npm start`
 
